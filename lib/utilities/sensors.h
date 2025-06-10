@@ -1,5 +1,4 @@
-#ifndef SENSORS_H
-#define SENSORS_H
+#pragma once
 
 // Serial Monitors
 #define SerialMon Serial
@@ -268,5 +267,3 @@ void collectBatteryV() {
   }
   delay(10);
 }
-
-#endif

@@ -1,5 +1,4 @@
-#ifndef PTORIVAS_H
-#define PTORIVAS_H
+#pragma once
 
 // ESP32 Serial Monitor
 #define SerialMon Serial
@@ -274,5 +273,3 @@ void collectBatteryV() {
   }
   delay(10);
 }
-
-#endif

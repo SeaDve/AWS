@@ -1,5 +1,4 @@
-#ifndef DEVICE_CONFIG_H
-#define DEVICE_CONFIG_H
+#pragma once
 
 extern String deviceSerial;
 extern String stationName;
@@ -88,5 +87,3 @@ extern String stationName;
   extern const char* ssid = "KT 2.4";
   extern const char* password = "J@yGsumm!t";
 #endif
-
-#endif // DEVICE_CONFIG_H

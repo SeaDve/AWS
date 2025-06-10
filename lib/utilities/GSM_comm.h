@@ -1,5 +1,4 @@
-#ifndef GSM_COMM_H
-#define GSM_COMM_H
+#pragma once
 
 #include <ptorivas.h>
 // Serial Monitors
@@ -333,5 +332,3 @@ void sendHTTPPostRequest() {
   SerialMon.printf("Status code: %d\n", status_code);
   SerialMon.println("Response: " + response);
 }
-
-#endif

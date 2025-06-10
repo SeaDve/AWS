@@ -1,5 +1,4 @@
-#ifndef WIFI_COMM_H
-#define WIFI_COMM_H
+#pragma once
 
 #include <sensors.h>
 // Serial Monitors
@@ -209,5 +208,3 @@ void sendDataToServer() {
   SerialMon.printf("Status code: %d\n", status_code);
   SerialMon.println("Response: " + response);
 }
-
-#endif
